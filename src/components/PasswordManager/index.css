@@ -1,0 +1,126 @@
+.password-manager-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding-bottom: 20px;
+  background-size: cover;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.app-logo {
+  height: 60px;
+  margin: 10px;
+}
+.password-manager-image {
+  height: 250px;
+}
+.add-password-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.input-elements-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.add-password-text {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.input-container {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.input-logo {
+  height: 20px;
+  margin: 10px;
+}
+.input {
+  height: 40px;
+  font-family: 'Roboto';
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+  border: solid #d0d2d4 1px;
+  flex-grow: 1;
+  padding: 10px;
+}
+.button {
+  border-width: 0px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  padding: 5px;
+  width: 60px;
+  color: white;
+  font-family: 'Roboto';
+  align-self: flex-end;
+}
+.bottom-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.password-counter {
+  display: flex;
+  flex-direction: row;
+}
+.counter-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: white;
+  margin-right: 10px;
+}
+.counter {
+  background-color: #454f84;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.label-container {
+  color: white;
+  font-family: 'Roboto';
+  align-self: flex-end;
+}
+.hr-line {
+  color: #c3caea;
+  border-width: 2px;
+}
+.password-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

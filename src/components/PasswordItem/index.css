@@ -1,0 +1,41 @@
+.list-item {
+  border: solid #b6c3ca 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.p-logo {
+  color: white;
+  font-family: 'Roboto';
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+  padding: 15px;
+  background-color: #10b981;
+  text-align: center;
+}
+.text {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin: 0px;
+}
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  align-self: center;
+}
+.delete-icon {
+  background-color: transparent;
+  height: 20px;
+}
+.stars {
+  width: 100px;
+}
